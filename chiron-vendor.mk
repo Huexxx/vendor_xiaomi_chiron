@@ -32,8 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml \
     vendor/xiaomi/chiron/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/chiron/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/xiaomi/chiron/proprietary/vendor/etc/thermal-engine-8998-high.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8998-high.conf \
-    vendor/xiaomi/chiron/proprietary/vendor/etc/thermal-engine-8998.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8998.conf \
+    vendor/xiaomi/chiron/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/xiaomi/chiron/proprietary/vendor/firmware/tas2559_s_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2559_s_uCDSP.bin \
     vendor/xiaomi/chiron/proprietary/vendor/firmware/tas2559_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2559_uCDSP.bin \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libactuator_chiron_imx386_ak7372_semco.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_chiron_imx386_ak7372_semco.so \
