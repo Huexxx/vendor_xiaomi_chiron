@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/chiron
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/chiron/proprietary/etc/device_features/chiron.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/chiron.xml \
     vendor/xiaomi/chiron/proprietary/vendor/etc/acdbdata/ChironS/Forte_ChironS_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ChironS/Forte_ChironS_Bluetooth_cal.acdb \
     vendor/xiaomi/chiron/proprietary/vendor/etc/acdbdata/ChironS/Forte_ChironS_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ChironS/Forte_ChironS_General_cal.acdb \
     vendor/xiaomi/chiron/proprietary/vendor/etc/acdbdata/ChironS/Forte_ChironS_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ChironS/Forte_ChironS_Global_cal.acdb \
@@ -56,6 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_hdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_hdr_video_3a.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_hfr_120.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_hfr_120_3a.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_hfr_240_3a.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_hfr_60.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_hfr_60_3a.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_hfr_90.so \
